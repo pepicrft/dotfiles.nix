@@ -3,8 +3,23 @@
 {
     # Home Manager needs a bit of information about you and the
     # paths it should manage.
-    home.username = "pepibumur";
-    home.homeDirectory = "/Users/pepibumur";
+    home.username = "pepicrft";
+    home.homeDirectory = "/Users/pepicrft";
+
+    home.packages = [
+        pkgs.ruby_3_1
+    ];
+
+    programs.git = {
+        enable = true;
+        userName = "Pedro Piñera";
+        userEmail = "pedro@craftweg.com";
+        extraConfig = {
+            core = {
+                editor = "codium --wait";
+            };
+        };
+    };
 
     # This value determines the Home Manager release that your
     # configuration is compatible with. This helps avoid breakage
