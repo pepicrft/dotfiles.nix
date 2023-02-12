@@ -1,13 +1,20 @@
+# Home manager search: https://mipmip.github.io/home-manager-option-search/
+# Search packages: https://search.nixos.org/packages
+
 { config, pkgs, ... }:
 
 {
     # Home Manager needs a bit of information about you and the
     # paths it should manage.
-    home.username = "pepicrft";
-    home.homeDirectory = "/Users/pepicrft";
+    home.username = "pepibumur";
+    home.homeDirectory = "/Users/pepibumur";
 
     home.packages = [
         pkgs.ruby_3_1
+        pkgs.nodejs-18_x
+        pkgs.erlangR25
+        pkgs.elixir_1_14
+        pkgs.nodePackages.pnpm
     ];
 
     programs.git = {
@@ -33,4 +40,15 @@
 
     # Let Home Manager install and manage itself.
     programs.home-manager.enable = true;
+
+    programs.zsh = {
+        enable = true;
+        enableAutosuggestions = true;
+        enableSyntaxHighlighting = true;
+        oh-my-zsh = {
+            enable = true;
+            plugins = [ "git" ];
+            theme = "robbyrussell";
+        };
+    };
 }
