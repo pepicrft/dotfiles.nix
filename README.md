@@ -14,14 +14,10 @@ nix-channel --add https://github.com/nix-community/home-manager/archive/master.t
 nix-channel --update
 nix-shell '<home-manager>' -A install
 ```
-3. Clone the repository at `~/.config/nixpkgs/dotfiles.nix`
-4. Import the file from `~/.config/nixpkgs/home.nix`
+3. Clone the repository: `git clone https://github.com/pepicrft/dotfiles.nix.git`
+4. Create a symlink at `~/.config/nixpkgs` that points to the repository directory:
 
-```nix
-{
-  imports = [
-    ./dotfiles.nix/pepicrft.nix
-  ];
-}
+```bash
+ln -s {path-to-repo} ~/.config/nixpkgs
 ```
 5. Run `home-manager switch`
