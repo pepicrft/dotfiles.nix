@@ -15,6 +15,12 @@
         pkgs.erlangR25
         pkgs.elixir_1_14
         pkgs.nodePackages.pnpm
+        pkgs.fzf
+        pkgs.exa
+        pkgs.ripgrep
+        pkgs.zoxide
+        pkgs.delta
+        pkgs.sl
     ];
 
     programs.git = {
@@ -26,6 +32,22 @@
                 editor = "codium --wait";
             };
         };
+    };
+
+    programs.fzf = {
+        enable = true;
+        enableZshIntegration = true;
+    };
+
+    programs.zoxide = {
+        enable = true;
+        enableZshIntegration = true;
+    };
+
+    programs.direnv = {
+        enable = true;
+        enableZshIntegration = true;
+        nix-direnv.enable = true;
     };
 
     # This value determines the Home Manager release that your
