@@ -28,3 +28,8 @@ sudo launchctl kickstart -k system/org.nixos.nix-daemon
 ln -s {path-to-repo} ~/.config/nixpkgs
 ```
 5. Run `nix run . switch` in the repository directory.
+
+## Useful commands
+
+- `nix run . swift`: Run it whenever we change something in the home manager configuration.
+- `nix flake update`: Update the programs in the dependency graph and reflect the updates in the lockfile.
