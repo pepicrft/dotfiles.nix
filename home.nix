@@ -6,8 +6,8 @@
 {
     # Home Manager needs a bit of information about you and the
     # paths it should manage.
-    home.username = "pepibumur";
-    home.homeDirectory = "/Users/pepibumur";
+    home.username = "pepicrft";
+    home.homeDirectory = "/Users/pepicrft";
 
     home.packages = [
         pkgs.ruby_3_1
