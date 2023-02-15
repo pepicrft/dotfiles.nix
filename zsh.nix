@@ -8,5 +8,6 @@
             plugins = [ "git" ];
             theme = "robbyrussell";
         };
+        initExtra = builtins.readFile ./zshrc;
     };
 }
