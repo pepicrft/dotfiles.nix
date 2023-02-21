@@ -11,5 +11,6 @@
         pkgs.zoxide
         pkgs.delta
         pkgs.sl
+        pkgs.tree
     ];
 }
