@@ -20,5 +20,11 @@
         pkgs = nixpkgs.legacyPackages.${arch};
         modules = [ ./home-pepicrft.nix ];
       };
+    homeConfigurations.pepibumur =
+      home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.${arch};
+        modules = [ ./home-pepibumur.nix ];
+      };
+    
     };
 }
