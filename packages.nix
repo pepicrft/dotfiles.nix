@@ -12,6 +12,6 @@
         pkgs.delta
         pkgs.sl
         pkgs.tree
-        nodePackages_latest.typescript
+        packages.nodePackages_latest.typescript
     ];
 }
