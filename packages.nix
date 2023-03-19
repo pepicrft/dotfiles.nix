@@ -13,5 +13,6 @@
         pkgs.sl
         pkgs.tree
         pkgs.nodePackages_latest.typescript
+        pkgs.flyctl
     ];
 }
