@@ -28,6 +28,20 @@ sudo launchctl kickstart -k system/org.nixos.nix-daemon
 ln -s {path-to-repo} ~/.config/nixpkgs
 ```
 5. Run `nix run . switch` in the repository directory.
+6. Update iTerm's **Command** setting under the Profile tab to use the custom shell: `~/.nix-profile/bin/zsh`
+7. Update the VSCode settings to use the ZSH managed by Nix:
+
+```json
+{
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.profiles.osx": {
+        "Nix-managed ZSH": {
+          "path": "/Users/pepibumur/.nix-profile/bin/zsh"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Nix-managed ZSH"
+}
+```
 
 ## Useful commands
 
