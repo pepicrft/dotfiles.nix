@@ -14,5 +14,6 @@
         pkgs.tree
         pkgs.nodePackages_latest.typescript
         pkgs.flyctl
+        pkgs.bat
     ];
 }
