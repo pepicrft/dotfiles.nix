@@ -9,7 +9,7 @@
             theme = "robbyrussell";
         };
         shellAliases = {
-            cd = "zoxide";
+            cd = "z";
             cat = "bat";
         };
         initExtra = builtins.readFile ./zshrc;
