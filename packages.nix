@@ -16,5 +16,6 @@
         pkgs.flyctl
         pkgs.bat
         pkgs.tig
+        pkgs.comma
     ];
 }
