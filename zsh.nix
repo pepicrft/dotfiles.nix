@@ -13,6 +13,7 @@
             cat = "bat";
             ls = "exa";
             du = "dust";
+            grep = "ripgrep";
         };
         initExtra = builtins.readFile ./zshrc;
     };
