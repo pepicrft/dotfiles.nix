@@ -12,8 +12,8 @@
             cd = "z";
             cat = "bat";
             ls = "exa";
-            du = "dust";
             grep = "ripgrep";
+            ps = "procs";
         };
         initExtra = builtins.readFile ./zshrc;
     };
