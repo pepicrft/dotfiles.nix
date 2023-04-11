@@ -20,5 +20,6 @@
         pkgs.exa
         pkgs.procs
         pkgs.bottom
+        pkgs.tokei
     ];
 }
