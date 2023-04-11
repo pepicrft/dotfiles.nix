@@ -18,5 +18,6 @@
         pkgs.tig
         pkgs.comma
         pkgs.exa
+        pkgs.dust
     ];
 }

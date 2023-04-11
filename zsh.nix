@@ -11,6 +11,8 @@
         shellAliases = {
             cd = "z";
             cat = "bat";
+            ls = "exa";
+            du = "dust";
         };
         initExtra = builtins.readFile ./zshrc;
     };
