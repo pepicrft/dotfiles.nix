@@ -17,5 +17,6 @@
         pkgs.bat
         pkgs.tig
         pkgs.comma
+        pkgs.exa
     ];
 }
