@@ -19,5 +19,6 @@
         pkgs.comma
         pkgs.exa
         pkgs.procs
+        pkgs.bottom
     ];
 }

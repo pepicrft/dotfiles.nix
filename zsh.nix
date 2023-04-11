@@ -12,7 +12,7 @@
             cd = "z";
             cat = "bat";
             ls = "exa";
-            grep = "ripgrep";
+            grep = "rg";
             ps = "procs";
         };
         initExtra = builtins.readFile ./zshrc;
