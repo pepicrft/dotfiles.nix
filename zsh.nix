@@ -8,6 +8,10 @@
             plugins = [ "git" ];
             theme = "robbyrussell";
         };
+        shellAliases = {
+            cd = "zoxide";
+            cat = "bat";
+        };
         initExtra = builtins.readFile ./zshrc;
     };
 }
