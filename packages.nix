@@ -21,6 +21,6 @@
         pkgs.procs
         pkgs.bottom
         pkgs.tokei
-        pkgs.swiftformat
+        pkgs.swift
     ];
 }
