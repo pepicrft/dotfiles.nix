@@ -3,4 +3,4 @@
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
 
 # Add Visual Studio Code (code)
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
