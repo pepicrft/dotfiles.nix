@@ -21,15 +21,15 @@ EOF
 ```bash
 sudo launchctl kickstart -k system/org.nixos.nix-daemon
 ```
-
-4. Create a symlink at `~/.config/nixpkgs` that points to the repository directory:
+4. Install a tool to create a profile: `nix-env -i comma`.
+5. Create a symlink at `~/.config/nixpkgs` that points to the repository directory:
 
 ```bash
 ln -s {path-to-repo} ~/.config/nixpkgs
 ```
-5. Run `nix run . switch` in the repository directory.
-6. Update iTerm's **Command** setting under the Profile tab to use the custom shell: `~/.nix-profile/bin/zsh`
-7. Update the VSCode settings to use the ZSH managed by Nix:
+6. Run `nix run . switch` in the repository directory.
+7. Update iTerm's **Command** setting under the Profile tab to use the custom shell: `~/.nix-profile/bin/zsh`
+8. Update the VSCode settings to use the ZSH managed by Nix:
 
 ```json
 {
