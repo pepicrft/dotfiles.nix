@@ -22,5 +22,6 @@
         pkgs.bottom
         pkgs.tokei
         pkgs.gh
+        pkgs.podman
     ];
 }
