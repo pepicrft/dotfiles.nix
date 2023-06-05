@@ -23,5 +23,6 @@
         pkgs.tokei
         pkgs.swift
         pkgs.gh
+        pkgs.swiftPackages.swiftpm
     ];
 }
