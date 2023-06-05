@@ -1,7 +1,7 @@
 { pkgs, ... }: {
     home.packages = [
         pkgs.ruby_3_1
-        pkgs.nodejs-18_x
+        pkgs.nodejs_20
         pkgs.erlangR25
         pkgs.elixir_1_14
         pkgs.nodePackages.pnpm
