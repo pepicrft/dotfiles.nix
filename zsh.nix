@@ -9,7 +9,6 @@
             theme = "robbyrussell";
         };
         shellAliases = {
-            cd = "z";
             cat = "bat";
             ls = "exa";
             grep = "rg";
