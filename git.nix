@@ -5,7 +5,7 @@
         userEmail = "pedro@pepicrft.me";
         extraConfig = {
             core = {
-                editor = "codium --wait";
+                editor = "code --wait";
             };
         };
     };
