@@ -13,7 +13,6 @@
         pkgs.sl
         pkgs.tree
         pkgs.nodePackages_latest.typescript
-        pkgs.flyctl
         pkgs.bat
         pkgs.tig
         pkgs.comma
