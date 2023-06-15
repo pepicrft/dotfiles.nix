@@ -16,7 +16,6 @@
         pkgs.bat
         pkgs.tig
         pkgs.comma
-        pkgs.exa
         pkgs.procs
         pkgs.bottom
         pkgs.tokei
