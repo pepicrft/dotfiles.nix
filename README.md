@@ -45,5 +45,5 @@ ln -s {path-to-repo} ~/.config/nixpkgs
 
 ## Useful commands
 
-- `nix run . swift`: Run it whenever we change something in the home manager configuration.
+- `nix run . switch`: Run it whenever we change something in the home manager configuration.
 - `nix flake update`: Update the programs in the dependency graph and reflect the updates in the lockfile.
