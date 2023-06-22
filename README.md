@@ -43,6 +43,18 @@ ln -s {path-to-repo} ~/.config/nixpkgs
 }
 ```
 
+## Troubleshooting
+
+### Nix breaks on macOS updates
+
+Add the following to the `/etc/zshrc` file:
+
+```bash
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+  source '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
+```
+
 ## Useful commands
 
 - `nix run . switch`: Run it whenever we change something in the home manager configuration.
