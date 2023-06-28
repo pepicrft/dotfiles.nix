@@ -1,6 +1,3 @@
-
-RTX_PATH=/opt/homebrew/bin/rtx
-
-if [ -f "$RTX_PATH" ]; then
-    eval "$($RTX_PATH activate zsh)"
+if [ -f "/opt/homebrew/bin/rtx" ]; then
+    eval "$(/opt/homebrew/bin/rtx activate zsh)"
 fi
