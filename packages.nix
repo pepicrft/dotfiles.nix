@@ -15,5 +15,6 @@
         pkgs.tokei
         pkgs.gh
         pkgs.podman
+        pkgs.gnupg
     ];
 }
