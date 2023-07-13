@@ -16,5 +16,7 @@
         pkgs.gh
         pkgs.podman
         pkgs.gnupg
+        pkgs.cargo
+        pkgs.rustup
     ];
 }
